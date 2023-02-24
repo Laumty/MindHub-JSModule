@@ -1,0 +1,124 @@
+.navbar img{
+    width: 100px;;
+}
+
+h1{
+    text-align: center;
+    color: #a8a8a8;
+
+}
+
+.container{
+
+    margin-top: 3.6%;
+}
+.navegador{
+    background-color: var(--bs-body-bg);
+}
+
+footer{
+    padding: 0%;
+    background-color: var(--bs-dark-bg-subtle);
+    width: 100%;
+}
+
+footer i{
+    font-size: 2rem; color: rgb(0, 0, 0);
+}
+
+
+.data{
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.details{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 18%;
+    margin-top: 12%;
+    margin-bottom: 13%;
+}
+
+
+.details {
+    width: 50%;
+}
+.card{
+    width: 50%;
+
+    row-gap: 20px;
+    column-gap: 200px;
+    gap: 20px;
+}
+
+.details .textoCard{
+    margin-top: 5%;
+    margin-left: 58%;
+}
+
+table{
+    border: 1px solid black;
+    margin-bottom: 7.7%;
+}
+
+table tr{
+    border: 2px solid black;
+    text-align: center;
+}
+
+table th{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.cabecera{
+    background-color: gray;
+}
+
+
+/*Contact*/
+
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+form input, form textarea {
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: 0;
+    padding: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: "Merriweather", sans-serif;
+    resize: none;
+}
+form #input-submit {
+    color: white;
+    background: #da363e;
+    cursor: pointer;
+}
+form textarea {
+    height: 205px;
+}
+.half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+}
+.right {
+    width: 50%;
+}
+.left {
+    margin-right: 2%;
+}
+/*Categorias/CheckBox */
+.formulario{
+    width: 200px;
+    border: 1px solid black;
+    gap: 20px;
+}
